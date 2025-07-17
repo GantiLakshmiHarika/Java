@@ -1,3 +1,21 @@
+15th july 
+
+ Java : Java is  a  high level programming  
+ -> Java is used to develop mobile apps, web apps, desktop apps, games and much more.
+ -> it's secure , portab;le ,object oriented ,platform independent
+
+
+ 16th july 
+
+ what is git?
+  -> Installations of vs code .
+  -> installation of jre and java 
+  -> creation of github account
+  -> git - used to trck the changes (changes are also called as commit)
+  -> github - which is used to store the code 
+  -> remote reposistory - github
+  -> local reposistory - laptop 
+
 17th july  
 
  -> installation of extension  pack for java
