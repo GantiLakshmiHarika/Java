@@ -1,0 +1,34 @@
+17th july  
+
+ -> installation of extension  pack for java
+ -> JVM (java virtual machine )
+ -> which is used to convert the bytecode  to machine level code
+ -> It follows platform independent rule and portable in nature beacause it follows the wora function.
+
+ ->JRE (java run time environment)
+ -> which provides the run platfform the the bycode/javacode.
+
+ ->JDK(java development kit)
+ ->provides an application 
+ ->contains the various tools.
+
+
+1st program 
+
+ public - Access modifier
+ class - object
+ static - no object is required
+ void - no return type
+ main - main method
+
+ public class Hello 
+ {
+    Public static  void main(String args[])
+    {
+        System.out.println("Hello world");
+    }
+ }
+
+-> JDK - write and run source code
+-> JRE - complies the  bytecode
+-> JVM - converts byte code to binary code
