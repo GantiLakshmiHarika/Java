@@ -50,3 +50,38 @@
 -> JDK - write and run source code
 -> JRE - complies the  bytecode
 -> JVM - converts byte code to binary code
+
+18th july 
+ Running of same hello world program in different platforms to prove Java is a platform independent language 
+ ->linux
+ ->mac
+ ->windows
+
+ Variables : variables are the containers that is used to store the values in it 
+ -> mainly variables follows the process of memory allocation
+ -> it follows some set of rules such as the varaiable doesnot start with with digit it only starts with charater or underscore.
+  ex: Student_id = 244; (which is true)
+      3Student_id = 244;(which is false)
+
+  Variables  ->digit
+             ->letter
+             ->underscore
+             ->special digit
+
+  In java we have 2 tpes of variables  
+  -> instance variable (no initialization is required and which is return inside class)
+  -> Local variable (declariation &  initialization is required and which is return main method)
+
+
+Data types : Data types generally defines that which type of the variable we need to be stored.
+
+-> primitive data type                                       -> Non primitive data type
+ numeric                non numeric                          ->String         
+ ->byte   - 1bit        -> char                              ->array
+ ->short  - 2bit        -> Boolean                           ->interface
+ ->int    - 4bit                                             ->enum
+ ->long   - 8bit
+ ->float  - 4bit
+ ->double - 8bit
+The above data type approach is called static type. 
+
