@@ -121,7 +121,7 @@ public class MainApp {
         System.out.print("\nDo you want to run again? (yes/no): ");
         String choice = sc.next();
         if (choice.equalsIgnoreCase("yes")) {
-            main(null); 
+            main(null);
     }
 }
 }

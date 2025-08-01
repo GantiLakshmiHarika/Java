@@ -83,5 +83,7 @@ Data types : Data types generally defines that which type of the variable we nee
  ->long   - 8bit
  ->float  - 4bit
  ->double - 8bit
-The above data type approach is called static type. 
+The above data type approach is called static type.
+
+
 
