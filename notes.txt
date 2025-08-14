@@ -85,5 +85,8 @@ Data types : Data types generally defines that which type of the variable we nee
  ->double - 8bit
 The above data type approach is called static type.
 
+Arrays : two type single dimensional array .multi dimensional array .
+ single dimension - only one axis ,element is used by index postition.index starts from 0.
 
+ Syntax of array : datatype[] arrayname= new datatype[size];
 
