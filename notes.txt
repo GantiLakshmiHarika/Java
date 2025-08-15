@@ -90,3 +90,25 @@ Arrays : two type single dimensional array .multi dimensional array .
 
  Syntax of array : datatype[] arrayname= new datatype[size];
 
+
+string  vs string buffer vs string builder
+-> Most commonly used object in java is string.
+->String vs string buffer
+string: string is immutiable in nature (immutabile- cannot be chnaged). need to be stored in variable like s=s.concate("harika").
+string buffer :string buffer are mutable in nature(mutabile -can be chnaged).
+ methods            string                                         string buffer
+foradding          concate                                         append
+
+
+
+// == opertors vs equals() method using string
+-> == created a 2 objects which take different memory locations.
+-> == used for reference purpose only.
+-> equals() used the same memory location.
+
+// == opertors vs equals() method using stringbuffer
+-> == created a 2 objects which take different memory locations.
+-> == used for reference purpose only.
+-> equals() used the same memory locationbut cannot override in string buffer so always false 
+// output : false  created a 2 objects which take different memory locations
+//false  StringBuffer does not override the equals() method from Object
