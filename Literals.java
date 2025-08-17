@@ -45,5 +45,36 @@ public class Literals {
        String t = "sandeep";
        System.out.println(t.indexOf('d'));
        ///System.out.println(sh.indexOf('e'));
+    
+       String yt = "sandeep";
+       System.out.println(yt.lastIndexOf('p'));
+
+        String yo = "sandeep";
+        System.out.println(yo.lastIndexOf('n','p'));
+
+        String yom = "SANDEEP";
+        System.out.println(yom.toLowerCase()); 
+
+        
+        String yox = "SANDEEP";
+        System.out.println(yox.toLowerCase()); 
+
+        
+        String yomr = "sandeep";
+        System.out.println(yomr.toUpperCase());
+
+        String ram = "   sandeep   ";
+        System.out.println(ram.trim().length());
+
+
+
+
+
+
+        
+
+       
+
+
     }
 }

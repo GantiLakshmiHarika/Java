@@ -170,14 +170,30 @@ isEmpty() = String strss = new String("sandeep");//false
             System.out.println(strss.isEmpty());
           
 length() =  String strse = new String("sandeep");
-            System.out.println(strse.length());
+            System.out.println(strse.length()); // 7
 
 substring() = String strses = new String("sandeep");
-             System.out.println(strses.substring(beignindex,endindex));
+             System.out.println(strses.substring(beignindex,endindex)); // deep
 
 replace() = String strsesg = new String("sandeep");
-            System.out.println(strsesg.replace('a','H'));
+            System.out.println(strsesg.replace('a','H')); // sHndeep
     
 indexof() = String t = "sandeep";
-            System.out.println(t.indexOf('d'));
+            System.out.println(t.indexOf('d'));//3
+
+lastindexof() = String yo = "sandeep";
+               System.out.println(yo.lastIndexOf('n')); // 2
+               System.out.println(yo.lastIndexOf('n','p'));//3
+
+toLowercase() = String yom = "SANDEEP";
+                System.out.println(yom.toLowerCase()); //sandeep
+
+
+toUpperCase() = String yomr = "sandeep";
+                System.out.println(yomr.toUpperCase()); //SANDEEP 
+
+trim() =       String ram = "   sandeep   ";
+              System.out.println(ram.trim()); // sandeep
+             
+trim().length() = System.out.println(ram.trim().length()); // 7
 
