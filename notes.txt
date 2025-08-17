@@ -179,4 +179,5 @@ replace() = String strsesg = new String("sandeep");
             System.out.println(strsesg.replace('a','H'));
     
 indexof() = String t = "sandeep";
-       System.out.println(t.indexOf('d'));
+            System.out.println(t.indexOf('d'));
+
