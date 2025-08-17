@@ -104,11 +104,19 @@ foradding          concate                                         append
 // == opertors vs equals() method using string
 -> == created a 2 objects which take different memory locations.
 -> == used for reference purpose only.
--> equals() used the same memory location.
+-> equals() used the same memory location.and used for content comparision
 
 // == opertors vs equals() method using stringbuffer
 -> == created a 2 objects which take different memory locations.
 -> == used for reference purpose only.
 -> equals() used the same memory locationbut cannot override in string buffer so always false 
+-> equals is used for reference comparision.
 // output : false  created a 2 objects which take different memory locations
 //false  StringBuffer does not override the equals() method from Object
+
+
+// heap and string constantpool(scp)part-1.
+ example : str str = new string("harika");
+   here in above example 2 objects are created beacuse of new keyword one oject created in heap area and another one is string name harika it is another object is created in scp also known as method area.
+ example : string s="harika";
+ here in above example onlu one object is created in method/scp area.
