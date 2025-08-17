@@ -120,3 +120,63 @@ foradding          concate                                         append
    here in above example 2 objects are created beacuse of new keyword one oject created in heap area and another one is string name harika it is another object is created in scp also known as method area.
  example : string s="harika";
  here in above example onlu one object is created in method/scp area.
+
+ //importance or Advantage of String constant pool (scp)
+  Advantage : Reusebility of an object.
+  Disadvanyage : Abnormal  behaviour of mutliple objects pointing to one reference to overcome with immutabile concept in java.
+  once you created string object cannot be changed again .
+
+
+// Additional questions  for interview
+Important FARS:
+
+1. why scp concert is available only for, Object but not for StringBuffer?  
+Ans : String is mostly used in java  where as string buffer cannit be used it is used once in a while .
+
+2 . why String Objects StringBuffer objects are are immutable where as mutable?
+ Ans :mutliple objects pointing to one reference to overcome with immutabile concept in java.
+      once you created string object cannot be changed again .because of scp stringis immutabile in nature.
+      Stringbuffer : no reusebility of object so mutabile in nature.
+
+3. In addition to String objects any other immutable in java?
+ Ans :  Yes, All Wrapper class objects are immutable in java same as Strings.
+
+
+ // Importance  Constructors of String class 
+
+String s = new String();// Creates an empty Sting Object .
+ → String s = new String (String literal);
+ → String s = new String (StringBuffer sb)
+ → String S = new String (StringBuilder sb)
+ → String s = new String(chart[] ch);
+ → String s = new String(byte[] b);
+
+
+// important method of String classes 
+
+char At[] =  String s = new String("Natural Star Nani");
+             System.out.println(s.charAt(8));
+concat =   String s1 = new String("harika");
+           s1=s1.concat("software");
+
+boolean equals = String  str = new String("HARIKA");
+           System.out.println(str.equals("harika"));
+      
+boolean equals ignorecase = String  strs = new String("HARIKA");
+                System.out.println(strs.equalsIgnoreCase("harika"));
+
+isEmpty() = String strss = new String("sandeep");//false
+            String strss = new String("");//true
+            System.out.println(strss.isEmpty());
+          
+length() =  String strse = new String("sandeep");
+            System.out.println(strse.length());
+
+substring() = String strses = new String("sandeep");
+             System.out.println(strses.substring(beignindex,endindex));
+
+replace() = String strsesg = new String("sandeep");
+            System.out.println(strsesg.replace('a','H'));
+    
+indexof() = String t = "sandeep";
+       System.out.println(t.indexOf('d'));

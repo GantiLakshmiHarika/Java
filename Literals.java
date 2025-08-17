@@ -20,5 +20,30 @@ public class Literals {
         String s9 = s8 + " change me";
         System.out.println("s9==s7: " + (s9 == s7));
         System.out.println("s9.equals(s7): " + s9.equals(s7));
+
+        String s = new String("Natural Star Nani");
+        System.out.println(s.charAt(8));
+
+        String  str = new String("HARIKA");
+        System.out.println(str.equals("harika"));
+
+        String  strs = new String("HARIKA");
+        System.out.println(strs.equalsIgnoreCase("harika"));
+
+        String strss = new String("sandeep");
+        System.out.println(strss.isEmpty());
+
+        String strse = new String("sandeep");
+        System.out.println(strse.length());
+
+        String strses = new String("sandeep");
+        System.out.println(strses.substring(3,7));
+
+        String strsesg = new String("sandeep");
+        System.out.println(strsesg.replace('a','H'));
+            
+       String t = "sandeep";
+       System.out.println(t.indexOf('d'));
+       ///System.out.println(sh.indexOf('e'));
     }
 }
