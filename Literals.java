@@ -104,5 +104,9 @@ public class Literals {
         StringBuffer h = new StringBuffer("opps");
         h.reverse();
         System.out.println(h);
+
+        StringBuilder sss = new StringBuilder("Harika");
+        sss.append("sandeep").append('s').insert(0,"pakka").reverse();
+        System.out.println(sss);
     }
 }

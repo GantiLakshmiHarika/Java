@@ -250,3 +250,20 @@ revers():
        StringBuffer h = new StringBuffer("opps");
         h.reverse();
         System.out.println(h); //sppo
+
+
+  STRINGBUFFER                                                       STRINGBUILDER
+ 
+  almost every method gets syinchronized                          No method gets synchronized.
+  only one thread is allowed on sb object thread safe             NO thread safety
+  Introduced in 1.0 version                                       Introduced in 1.5 version
+
+
+
+  Method Chaining 
+ method calls will be executed from left to right .
+ example :
+ StringBuilder sss = new StringBuilder("Harika");
+        sss.append("sandeep").append('s').insert(0,"pakka").reverse();
+        System.out.println(sss); // speednasakiraHakkap
+    
