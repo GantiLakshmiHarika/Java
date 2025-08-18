@@ -267,3 +267,18 @@ revers():
         sss.append("sandeep").append('s').insert(0,"pakka").reverse();
         System.out.println(sss); // speednasakiraHakkap
     
+
+
+// Static and non static 
+ 
+ Static in java is mainly used for memory allocation beacuse in java there is a problem for memory allocation when objects are created so they created the static
+ functionality in the main method when they are desigining.
+
+ in class main method will be executed in program until if there is any block like static block  static block will execute first.
+
+
+ static : no object creation is required.
+ non static : object creation is required.
+ 
+
+
