@@ -81,10 +81,28 @@ public class Literals {
          StringBuffer love =new StringBuffer("durga");
          System.out.println(love.capacity());
 
+        StringBuffer lovemode = new StringBuffer("NANInatural");
+        System.out.println(lovemode.charAt(5));
 
+        StringBuffer mode = new StringBuffer("JAVA");
+        mode.setCharAt(0, 'R');
+        System.out.println(mode);
 
+        StringBuffer rava = new StringBuffer("naturalstar");
+        rava.insert(0,"pakka");
+        System.out.println(rava); 
 
+        
+        StringBuffer lava = new StringBuffer("naturalstar");
+        lava.delete(1, 5);
+        System.out.println(lava);
 
+        StringBuffer  v = new StringBuffer("Pakkasuperstar");
+        v.deleteCharAt(8);
+        System.out.println(v); 
 
+        StringBuffer h = new StringBuffer("opps");
+        h.reverse();
+        System.out.println(h);
     }
 }

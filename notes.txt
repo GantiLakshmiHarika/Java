@@ -225,3 +225,28 @@ Initial Capacity Rule : (c  + length(string))
   System.out.println(love.capacity()); // 22 based on initial capacity rule 
 
 
+lenth()
+capacity()
+charAt(int index)
+setCharAt(int index , char newchar) :  StringBuffer mode = new StringBuffer("JAVA");
+                                       mode.setCharAt(0, 'R');
+                                       System.out.println(mode);
+
+                              
+insert() : 
+        StringBuffer rava = new StringBuffer("naturalstar");
+        rava.insert(0,"pakka");
+        System.out.println(rava);// pakkanaturalstar
+delete() : 
+        StringBuffer lava = new StringBuffer("naturalstar");
+        lava.delete(1, 5);
+        System.out.println(lava);//nalstar
+deleteCharAt(): 
+        StringBuffer  v = new StringBuffer("Pakkasuperstar");
+        v.deleteCharAt(8);
+        System.out.println(v);//Pakkasuprstar
+
+revers(): 
+       StringBuffer h = new StringBuffer("opps");
+        h.reverse();
+        System.out.println(h); //sppo
