@@ -197,3 +197,31 @@ trim() =       String ram = "   sandeep   ";
              
 trim().length() = System.out.println(ram.trim().length()); // 7
 
+
+
+// constructors of String Buffer.
+default inital capacity of string buffer is 16. 
+it will increses in the following formula 
+capacity expansion Rule = ( cc + 1)*2;
+
+Example :
+StringBuffer sb =new StringBuffer(); // default constructor
+System.out.println(sb.capacity());// 16
+sb.append("GANTILAKSHMIHARIKA");
+System.out.println(sb.capacity());//34
+
+sb.append("GANTILAKSHMIHARIKAtejasandeep");
+System.out.println(sb.capacity());//70 
+
+sb.append("GANTILAKSHMIHARIKAtejasandeepravisurya");
+System.out.println(sb.capacity());//142
+
+StringBuffer sb =new StringBuffer(int 10000);//assigning inital capacity
+System.out.println(sb.capacity());//10000
+
+
+Initial Capacity Rule : (c  + length(string))
+  StringBuffer love =new StringBuffer("Harika");
+  System.out.println(love.capacity()); // 22 based on initial capacity rule 
+
+

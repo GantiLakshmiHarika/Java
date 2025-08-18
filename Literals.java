@@ -66,14 +66,24 @@ public class Literals {
         String ram = "   sandeep   ";
         System.out.println(ram.trim().length());
 
+         StringBuffer sb =new StringBuffer();
+         System.out.println(sb.capacity());
+         sb.append("GANTILAKSHMIHARIKA");
+         System.out.println(sb.capacity());
+         sb.append("GANTILAKSHMIHARIKAtejasandeep");
+         System.out.println(sb.capacity());
+         sb.append("GANTILAKSHMIHARIKAtejasandeepravisurya");
+         System.out.println(sb.capacity());
+
+         StringBuffer sbr =new StringBuffer( 10000);//assigning inital capacity
+         System.out.println(sbr.capacity());
+
+         StringBuffer love =new StringBuffer("durga");
+         System.out.println(love.capacity());
 
 
 
 
-
-        
-
-       
 
 
     }
