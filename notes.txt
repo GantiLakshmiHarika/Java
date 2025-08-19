@@ -281,4 +281,8 @@ revers():
  non static : object creation is required.
  
 
+ OOPS IN JAVA
+ Inheritance:
+ one class can aquire the properties and behaviour of another class is called inheritance.
+
 
